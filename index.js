@@ -1,5 +1,5 @@
 // Write your solution in this file!
-let driver={}
+let driver={fiola}
 function updateDriverWithKeyAndValue(driver,key,value){
 
 return {...driver, [key]:value}
@@ -10,5 +10,6 @@ driver[key] = value
 return driver
 }
 function deleteFromDriverByKey(driver,key){
-  delete driver[Drive,key]
-}
+  delete driver[key]
+  return driver
+} 
