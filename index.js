@@ -5,3 +5,4 @@ let copyOfDriver = {...driver}
 copyOfDriver[key] = value
 return copyOfDriver
 }
+{...driver, [copyOfDriver]:value}
