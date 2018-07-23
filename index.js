@@ -10,7 +10,9 @@ driver[key] = value
 return driver
 }
 function deleteFromDriverByKey(driver,key){
- 
+let copyDriver={...driver}
+  delete copyDriver[key]
+  return copyDriver
 } 
 function destructivelyDeleteFromDriverByKey(driver,key){
  delete driver[key]
