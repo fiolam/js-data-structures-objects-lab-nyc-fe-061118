@@ -9,5 +9,5 @@ function destructivelyUpdateDriverWithKeyAndValue(driver,key,value){
 driver[key] = value
 return driver
 }
-
-delete driver["driver"]
+function 
+delete driver[Driver]
