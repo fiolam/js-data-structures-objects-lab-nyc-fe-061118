@@ -6,6 +6,6 @@ return {...driver, [key]:value}
 
 }
 function destructivelyUpdateDriverWithKeyAndValue(driver,key,value){
-driver["value"] = "fast"
-return
+let driver["value"] = "fast"
+
 }
